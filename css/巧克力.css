@@ -30,6 +30,10 @@ h3{
 .icon{
     cursor:pointer;
 }
+
+.logo{
+    cursor:pointer;
+}
 /*覆蓋瀏覽器預設margin*/
 body, p {
   margin:0px;

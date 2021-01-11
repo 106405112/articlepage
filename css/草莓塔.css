@@ -27,6 +27,10 @@ h3{
 .icon{
     cursor:pointer;
 }
+
+.logo{
+    cursor:pointer;
+}
 .handsome{
     height:390px;
     position: relative;

@@ -35,6 +35,9 @@ h3{
 .icon{
     cursor:pointer;
 }
+.logo{
+    cursor:pointer;
+}
 
 @media (min-width: 1439px) {
     /*HEADER*/
