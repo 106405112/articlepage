@@ -237,8 +237,6 @@ li{
 .newsbox {
     position: relative;
     padding: 0;
-    width: 400px;
-    height: 280px;
     margin-top:100px;
     background-size: cover;
   }
@@ -299,10 +297,23 @@ li{
 /* 下面是有關作者介紹的 */
 
 #intro{
+    display: flex;
+    justify-content: space-around;
     background-color: #EDD0D0;
     margin-top: 200px;
     color: #A7123F;
-    text-align: center;
-    padding: 70px;
     line-height: 50px;
+    padding: 70px;
+}
+
+h3+p{
+    margin: 0;
+}
+
+#intro div{
+    display: inline-block;
+}
+
+.intro-decor{
+    height: 300px;
 }
