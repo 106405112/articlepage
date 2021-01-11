@@ -3,7 +3,10 @@ body{
     background-image: url(./drawing/background/草莓背景.png);
 }
 
-*{font-family: 'Noto Sans TC', sans-serif;}
+*{font-family: 'Noto Sans TC', sans-serif;
+    box-sizing: border-box;
+}
+
 
 #header{
     width: 100%;
@@ -51,6 +54,7 @@ li{
 .colorlist{
     display: none;
     position: absolute;
+    z-index: 50;
     padding: 0;
     right: 5%;
 }
@@ -68,7 +72,6 @@ li{
 
 .change-color:hover .colorlist {
     display:block;
-    transition-duration:2s;
 }
 
 .choice:hover {
@@ -100,11 +103,11 @@ li{
     top:-31.5px;
     z-index: 11;
     color: white;
-    padding: 2.5%;
+    padding: 2%;
     background-color: #A7123F;
     border: 2px solid white;
     border-radius: 50px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 /* 下面是有關幻燈片的 */
@@ -145,6 +148,7 @@ li{
     padding: 5px 20px;
     color:#A7123F;
     margin: 0 30px 0 auto;
+    font-family: 'Noto Serif TC', serif;
 }
 
 /*點點*/
@@ -167,6 +171,10 @@ li{
 }
 .carousel-dark .carousel-indicators li{
     background-color: #A7123F;
+}
+
+.middle-decor{
+    width: 100%;
 }
 
 /* 下面是有關可愛人仔的 */
@@ -204,12 +212,12 @@ li{
 /* 下面是有關推薦新聞的 */
 
 .news-recommend{
-    margin-top: -200px;
-    margin-left: 5%;
+    margin: -200px 5% 0 5%;
 }
 
 #allnewsbox{
     display: inline-block;
+    width: 70%;
 }
 
 .decor{
@@ -227,9 +235,11 @@ li{
 
 .title p{
     writing-mode:vertical-rl;
-    margin: 20px 0 0 0;
+    margin: 20px 0;
     font-size: 24px;
     color: #A7123F;
+    font-family: 'Noto Serif TC', serif;
+    letter-spacing: 5px;
 }
 
 /* 下面是有關推薦新聞的動畫 */
@@ -253,21 +263,21 @@ li{
     background-image: url(./photo/2.jpg);
     width: 400px;
     height: 280px;
-    margin-left: 65%;
+    left: 30%;
   }
 
   .newsbox:nth-child(3){
     background-image: url(./photo/3.jpg);
     width: 340px;
     height: 238px;
-    margin-left: 15%;
+    left: 10%;
   }
 
   .newsbox:nth-child(4){
     background-image: url(./photo/4.jpg);
     width: 360px;
     height: 252px;
-    margin-left: 80%;
+    left: 30%;
   }
 
   
@@ -310,10 +320,191 @@ h3+p{
     margin: 0;
 }
 
+#intro h3{
+    font-family: 'Noto Serif TC', serif;
+}
+
 #intro div{
     display: inline-block;
 }
 
 .intro-decor{
     height: 300px;
+}
+
+@media (min-width: 1024px) {
+    #carouselExampleDark{
+        width: 700px;
+    }    
+
+    #cuteimg {
+        height: 200px;
+    }
+
+    .news-recommend{
+        margin: -140px 5% 0 5%;
+    }
+    
+    #cutep{
+        padding: 50px 0;
+    }
+
+    .newsbox:nth-child(1){
+        width: 300px;
+        height: 210px;
+    }
+
+    .newsbox:nth-child(2){
+        width: 400px;
+        height: 280px;
+    }
+
+    .newsbox:nth-child(3){
+        width: 340px;
+        height: 238px;
+    }
+
+    .newsbox:nth-child(4){
+        width: 360px;
+        height: 252px;
+    }
+
+}
+
+@media (min-width: 767px) and (max-width: 1023px){
+    #carouselExampleDark{
+        width: 600px;
+    }    
+
+    #cuteimg {
+        height: 140px;
+    }
+
+    .news-recommend{
+        margin: -140px 5% 0 5%;
+    }
+
+    #cutep{
+        padding: 40px 0;
+        font-size:0.8rem;
+    }
+
+    .newsbox:nth-child(1){
+        width: 255px;
+        height: 178.5px;
+    }
+
+    .newsbox:nth-child(2){
+        width: 340px;
+        height: 238px;
+    }
+
+    .newsbox:nth-child(3){
+        width: 289px;
+        height: 202.3px;
+    }
+
+    .newsbox:nth-child(4){
+        width: 306px;
+        height: 214.2px;
+    }
+
+}
+
+@media (min-width: 470px) and (max-width: 766px){
+    #header{
+        margin-bottom: 8%;
+    }
+
+    #carouselExampleDark{
+        width: 100%;
+    }    
+
+    #cute {
+        display: none;
+    }
+
+    .popo-carousel-caption{
+        display: inline-block !important;
+    }
+
+    .floatman{
+        display: none;
+    }
+
+    .popo-carousel-caption h5{ 
+        padding: 5px;
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .news-recommend{
+        margin: 0 5%;
+    }
+
+    #cutep{
+        padding: 40px 0;
+        font-size:0.8rem;
+    }
+
+    .newsbox {
+        margin-top:70px;
+    }
+
+    .newsbox:nth-child(1){
+        width: 100%;
+        height: 200px;
+        left: 5%;
+    }
+
+    .newsbox:nth-child(2){
+        width: 100%;
+        height: 200px;
+        left: 5%;
+    }
+
+    .newsbox:nth-child(3){
+        width: 100%;
+        height: 200px;
+        left: 5%;
+    }
+
+    .newsbox:nth-child(4){
+        width: 100%;
+        height: 200px;
+        left: 5%;
+    }
+
+    #intro h3{
+        font-size: 22px;
+        font-family: 'Noto Serif TC', serif;
+    }
+
+    #intro{
+        font-size: 12px;
+        line-height: 35px;
+        padding: 70px 30px;
+    }
+
+    .intro-decor{
+        height: 150px;
+    }
+
+    #allnewsbox{
+        width: 80%;
+    }
+    
+    .decor{
+        width: 30px;
+    }
+    
+    .title{
+        margin-right: 10px;
+    }
+    
+    .title p{
+        margin: 15px 0;
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
 }
