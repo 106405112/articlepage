@@ -135,6 +135,7 @@ body, p {
 .picture-relate{
     width:100%;
     height:auto;
+    cursor:pointer;
 }
 
 .related-font{
@@ -146,6 +147,7 @@ body, p {
     margin:auto;
     padding-top:10px;
     padding-bottom:15px;
+    cursor:pointer;
 }
 
 .footer{
@@ -280,6 +282,7 @@ body, p {
     .picture-relate{
         width:100%;
         height:auto;
+        cursor:pointer;
     }
     
     .related-font{
@@ -291,6 +294,7 @@ body, p {
         padding-top:10px;
         width:200px;
         margin:auto;
+        cursor:pointer;
     }
     
     .footer{
@@ -425,6 +429,7 @@ body, p {
         .picture-relate{
             width:100%;
             height:auto;
+            cursor:pointer;
         }
         
         .related-font{
@@ -436,6 +441,7 @@ body, p {
             margin:auto;
             padding-top:5px;
             padding-bottom:5px;
+            cursor:pointer;
         }
         
         .footer{
@@ -549,6 +555,7 @@ body, p {
                 height:auto;
                 margin-left:10%;
                 margin-top:10%;
+                cursor:pointer;
             }
             
             
@@ -591,6 +598,7 @@ body, p {
                     font-weight: 400;
                     margin-left:10%;
                     margin-top:10px;
+                    cursor:pointer;
                 }
             
             }
@@ -625,5 +633,6 @@ body, p {
                     font-weight: 400;
                     margin-left:10%;
                     margin-top:10px;
+                    cursor:pointer;
                 }
             }
