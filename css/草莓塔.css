@@ -127,7 +127,7 @@ body, p {
     line-height: 68px;
     padding-top:100px;
     margin-left:100px;
-    padding-bottom:70px;
+    padding-bottom:170px;
 }
 
 .article-font {
@@ -226,8 +226,8 @@ body, p {
         height:100px;
         padding-top:170px;
         padding-bottom:50px;
-        display:flex;
-        align-items: center;
+        padding-top:130px;
+        padding-bottom:50px;
     }
 
     .logo{
@@ -282,7 +282,7 @@ body, p {
         line-height: 68px;
         padding-top:100px;
         margin-left:80px;
-        padding-bottom:160px;
+        padding-bottom:240px;
     }
     
     .article-font {
