@@ -26,6 +26,10 @@ h3{
 .footer-decor{
     height: 300px;
 }
+
+.icon{
+    cursor:pointer;
+}
 /*覆蓋瀏覽器預設margin*/
 body, p {
   margin:0px;

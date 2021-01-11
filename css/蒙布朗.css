@@ -32,6 +32,10 @@ h3{
     height: 300px;
 }
 
+.icon{
+    cursor:pointer;
+}
+
 @media (min-width: 1440px) {
     /*HEADER*/
     .headericon{
