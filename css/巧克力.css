@@ -605,7 +605,7 @@ body, p {
                     position:relative;
                     top:-30px;
                     bottom:10px;
-                    left:60%;
+                    left:57%;
                 }
                 .logo{
                     height:25px;
@@ -625,7 +625,7 @@ body, p {
                     display:flex;
                     justify-content: space-between;
                     position:relative;
-                    left:60%;
+                    left:57%;
                 }
 
                 .related-font{
@@ -654,7 +654,7 @@ body, p {
                     position:relative;
                     top:-30px;
                     bottom:10px;
-                    left:73%;
+                    left:71%;
                 }
 
                 .headerchange{
@@ -663,7 +663,7 @@ body, p {
                     display:flex;
                     justify-content: space-between;
                     position:relative;
-                    left:73%;
+                    left:71%;
                 }
                 .logo{
                     height:40px;
