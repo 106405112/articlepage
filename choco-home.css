@@ -1,6 +1,6 @@
 body{
-    background-color: #FFF6F4;
-    background-image: url(./drawing/background/草莓背景.png);
+    background-color: #2D1010;
+    background-image: url(./drawing/background/酒心背景.png);
 }
 
 *{font-family: 'Noto Sans TC', sans-serif;
@@ -36,7 +36,7 @@ body{
 #logo{
     height: 100px;
     width: 100px;
-    background-image: url(./drawing/logo/草莓獨角.png);
+    background-image: url(./drawing/logo/酒心獨角.png);
     background-size: contain;
     background-repeat:no-repeat;
 }
@@ -78,7 +78,7 @@ li{
 
 .colorlist li{
     padding:25px 35px;
-    background-color: white;
+    background-color: #CAA5A5;
 }
 
 .colorlist li:first-child{
@@ -117,10 +117,10 @@ li{
     position: absolute;
     left: 97px;
     z-index: 11;
-    color: #A7123F;
+    color: #CAA5A5;
     padding: 2%;
-    background-color: #EDD0D0;
-    border: 2px solid #A7123F;
+    background-color: #9A4444;
+    border: 2px solid #CAA5A5;
     border-radius: 50px;
     font-size: 15px;
     margin: 0;
@@ -159,10 +159,10 @@ li{
 
 .popo-carousel-caption h5{ 
     display: inline;
-    background-color: white;
-    border: 3px solid white;
+    background-color: #CAA5A5;
+    border: 3px solid #CAA5A5;
     padding: 5px 20px;
-    color:#A7123F;
+    color:#2D1010;
     margin: 0 30px 0 auto;
     font-family: 'Noto Serif TC', serif;
     line-height: 50px;
@@ -187,7 +187,7 @@ li{
     margin:0 10px;
 }
 .carousel-dark .carousel-indicators li{
-    background-color: #A7123F;
+    background-color: #CAA5A5;
 }
 
 .middle-decor{
@@ -217,10 +217,8 @@ li{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    text-align: center;
-    line-height: 30px;
-    color:  #A7123F;;
-    padding: 50px 0;
+    color:  #CAA5A5;
+    padding: 40px 0;
     opacity: 0;
 }
 
@@ -258,7 +256,7 @@ li{
     writing-mode:vertical-rl;
     margin: 20px 0;
     font-size: 24px;
-    color: #A7123F;
+    color: #CAA5A5;
     font-family: 'Noto Serif TC', serif;
     letter-spacing: 5px;
 }
@@ -308,7 +306,7 @@ li{
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #ECD4D4;
+    background-color: #9A4444;
   }
   
   .newsbox:hover .overlay {
@@ -332,9 +330,9 @@ li{
 #intro{
     display: flex;
     justify-content: space-around;
-    background-color: #EDD0D0;
+    background-color: #CAA5A5;
     margin-top: 200px;
-    color: #A7123F;
+    color: #2D1010;
     line-height: 50px;
     padding: 70px;
 }
@@ -414,7 +412,7 @@ h3+p{
     }
 
     #cutep{
-        padding: 40px 0;
+        padding: 30px 0;
         font-size:0.8rem;
     }
 
