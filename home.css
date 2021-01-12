@@ -444,6 +444,7 @@ h3+p{
 
     #carouselExampleDark{
         width: 100%;
+        margin-bottom: 500px;
     }    
 
     #cute {
@@ -555,7 +556,7 @@ h3+p{
     
     .floatman{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         top:120%
     }
 
@@ -566,10 +567,6 @@ h3+p{
     .talk{
         margin: auto;
     }
-
-    #carouselExampleDark{
-        margin-bottom: 150%;
-    }  
 
     .logo-name{
         display: none;
