@@ -5,8 +5,8 @@
 .sticker{
     text-align: right;
     position: sticky;
-    top: 400px;
-    padding-right: 5%;
+    top: 250px;
+    padding-left: 120%;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -186,7 +186,7 @@ body, p {
     border-bottom-left-radius: 50px;
     background:rgba(255, 255, 255, 0.5);
     margin-left: 92px;
-    margin-top: -60px;
+    margin-top: -400px;
     padding-bottom:30px;
 }
 
@@ -345,7 +345,7 @@ body, p {
         border-bottom-left-radius: 50px;
         background:rgba(255, 255, 255, 0.5);
         margin-left: 60px;
-        margin-top: -60px;
+        margin-top: -400px;
     }
     
     .picture{
@@ -505,7 +505,7 @@ body, p {
             background:rgba(255, 255, 255, 0.5);
             margin-right: 15%;
             margin-left: 8%;
-            margin-top: -60px;
+            margin-top: -400px;
         }
         
         .picture{
@@ -631,7 +631,7 @@ body, p {
                 border-bottom-right-radius: 50px;
                 border-bottom-left-radius: 50px;
                 background:rgba(255, 255, 255, 0.5);
-                margin-top: -60px;
+                margin-top: -400px;
                 margin-left:60px;
                 margin-right:8%;
             }
