@@ -26,11 +26,6 @@
     opacity: 0;
 }
 
-.img-sticker:hover~.font-sticker{
-    opacity: 1;
-    transition-duration:0.3s;
-  }
-
 .footer{
     background-color: #EDD0D0;
     margin-top:200px;
@@ -98,6 +93,10 @@ body, p {
 
 @media (min-width: 1439px) {
     /*HEADER*/
+    .img-sticker:hover~.font-sticker{
+        opacity: 1;
+        transition-duration:0.3s;
+      }
     .headericon{
         margin-left:100px;
         width:500px;
@@ -253,6 +252,10 @@ body, p {
 }
 
 @media (min-width: 1023px) and (max-width: 1439px) {
+    .img-sticker:hover~.font-sticker{
+        opacity: 1;
+        transition-duration:0.3s;
+      }
     .headericon{
         margin-left:80px;
         width:500px;
@@ -406,6 +409,11 @@ body, p {
     }
 
     @media (min-width: 767px) and (max-width: 1023px) {
+        .img-sticker:active~.font-sticker{
+            opacity: 1;
+            transition-duration:0.3s;
+          }
+
         .headericon{
         margin-right: auto;
         margin-left: auto;
@@ -558,6 +566,10 @@ body, p {
         }
 
         @media (min-width: 320px) and (max-width: 767px) {
+            .img-sticker:active~.font-sticker{
+                opacity: 1;
+                transition-duration:0.3s;
+              }
             .headericon{
                 margin-right: auto;
                 margin-left: auto;
