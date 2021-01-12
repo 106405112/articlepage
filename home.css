@@ -7,6 +7,7 @@ body{
     box-sizing: border-box;
 }
 
+/*header*/
 
 #header{
     width: 100%;
@@ -15,6 +16,19 @@ body{
     justify-content: space-between;
     margin-top: 2%;
     margin-bottom: 4%;
+}
+
+.logo-box{
+    display: flex;
+    align-items: center;
+}
+
+.logo-name{
+    background-image: url(./drawing/logo/name.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+    width: 100px;
+    height: 50px;
 }
 
 #logo{
@@ -85,13 +99,13 @@ li{
     position: absolute;
     height: 120%;
     width: 100%;
-    margin: auto;
+    top: -10%;
 }
 
 .man{
     position: absolute;
     z-index: 10;
-    left: -73.24px;
+    left: -97px;
     height: 100%;
     margin:0 auto;
 
@@ -99,13 +113,12 @@ li{
 
 .talk{
     position: absolute;
-    left: 73.24px;
-    top:-31.5px;
+    left: 97px;
     z-index: 11;
-    color: white;
+    color: #A7123F;
     padding: 2%;
-    background-color: #A7123F;
-    border: 2px solid white;
+    background-color: #EDD0D0;
+    border: 2px solid #A7123F;
     border-radius: 50px;
     font-size: 15px;
 }
@@ -149,6 +162,7 @@ li{
     color:#A7123F;
     margin: 0 30px 0 auto;
     font-family: 'Noto Serif TC', serif;
+    line-height: 50px;
 }
 
 /*點點*/
@@ -249,6 +263,7 @@ li{
     padding: 0;
     margin-top:100px;
     background-size: cover;
+    background-position: center;
   }
 
   .newsbox:nth-child(1){
@@ -332,8 +347,17 @@ h3+p{
     height: 300px;
 }
 
-@media (min-width: 1024px) {
+/* RWD RWD RWD RWD RWD */
+
+@media (min-width: 1440px) {
     #carouselExampleDark{
+        width: 900px;
+    }  
+
+}
+
+@media (min-width: 1024px) and (max-width: 1443px) {
+   /* #carouselExampleDark{
         width: 700px;
     }    
 
@@ -367,13 +391,13 @@ h3+p{
     .newsbox:nth-child(4){
         width: 360px;
         height: 252px;
-    }
+    }*/
 
 }
 
 @media (min-width: 767px) and (max-width: 1023px){
     #carouselExampleDark{
-        width: 600px;
+        width: 550px;
     }    
 
     #cuteimg {
@@ -411,7 +435,9 @@ h3+p{
 
 }
 
-@media (min-width: 470px) and (max-width: 766px){
+/* 圖片模式更改*/
+
+@media (min-width: 320px) and (max-width: 766px){
     #header{
         margin-bottom: 8%;
     }
@@ -429,8 +455,22 @@ h3+p{
     }
 
     .floatman{
-        display: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        top:120%
     }
+
+    .man{
+        position: static;
+        margin-left: auto;
+    }
+    
+    .talk{
+        position: static;
+        margin-right: auto;
+    }
+
 
     .popo-carousel-caption h5{ 
         padding: 5px;
@@ -481,13 +521,13 @@ h3+p{
     }
 
     #intro{
-        font-size: 12px;
+        font-size: 14px;
         line-height: 35px;
         padding: 70px 30px;
     }
 
     .intro-decor{
-        height: 150px;
+        height: 180px;
     }
 
     #allnewsbox{
@@ -506,5 +546,50 @@ h3+p{
         margin: 15px 0;
         font-size: 18px;
         letter-spacing: 3px;
+    }
+}
+
+/* footer 更改*/
+@media (max-width: 469px){
+
+    
+    .floatman{
+        display: flex;
+        flex-direction: column;
+        top:120%
+    }
+
+    .man{
+        height: 80%;
+    }
+
+    .talk{
+        margin: auto;
+    }
+
+    #carouselExampleDark{
+        margin-bottom: 150%;
+    }  
+
+    .logo-name{
+        display: none;
+    }
+
+    #intro h3{
+        font-size: 22px;
+        font-family: 'Noto Serif TC', serif;
+    }
+
+    #intro{
+        font-size: 14px;
+        text-align: center;
+        line-height: 35px;
+        padding: 70px 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro-decor{
+        margin-bottom: 30px;
     }
 }
