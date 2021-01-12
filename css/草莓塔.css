@@ -2,6 +2,35 @@
     box-sizing: border-box;
 }
 
+.sticker{
+    text-align: right;
+    position: sticky;
+    top: 400px;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.img-sticker{
+    height: 200px;
+}
+
+.font-sticker{
+    background-image: url(./drawing/decor/點點圈.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:  #A7123F;;
+    padding: 50px 0;
+    opacity: 0;
+}
+
+.img-sticker:hover~.font-sticker{
+    opacity: 1;
+    transition-duration:0.3s;
+  }
+
 .footer{
     background-color: #EDD0D0;
     margin-top:200px;
@@ -689,7 +718,11 @@ body, p {
                     height:60px;
                     line-height:60px;
                     font-size: 15px;
-                }     
+                } 
+                
+                .img-sticker{
+                    height: 100px;
+                }
             }
 
             @media (min-width: 470px) and (max-width:767px){
@@ -754,6 +787,10 @@ body, p {
                     line-height:60px;
                     font-size: 15px;
                 }  
+
+                .img-sticker{
+                    height: 100px;
+                }
             }
 
             @media (min-width: 320px) and (max-width:380px){
