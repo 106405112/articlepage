@@ -719,6 +719,7 @@ body, p {
                 .footer{
                     line-height: 40px;
                     padding:35px;
+                    width:110%;
                 }
                 .handsome{
                     left:3%;
@@ -786,6 +787,7 @@ body, p {
                 .footer{
                     line-height: 40px;
                     padding:40px;
+                    width:110%;
                 }
 
                 .handsome{
