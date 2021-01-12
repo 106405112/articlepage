@@ -8,6 +8,7 @@ body{
 }
 
 /*header*/
+/*盈盈要改的header*/
 
 #header{
     width: 100%;
@@ -50,6 +51,7 @@ body{
 }
 
 /*下拉選單*/
+/*盈盈要改的header*/
 
 li{
     list-style: none;
@@ -121,6 +123,7 @@ li{
     border: 2px solid #A7123F;
     border-radius: 50px;
     font-size: 15px;
+    margin: 0;
 }
 
 /* 下面是有關幻燈片的 */
@@ -192,6 +195,8 @@ li{
 }
 
 /* 下面是有關可愛人仔的 */
+/*盈盈要改的人仔*/
+
 #cute {
     text-align: right;
     position: sticky;
@@ -320,6 +325,7 @@ li{
   }
 
 /* 下面是有關作者介紹的 */
+/*盈盈要改的footer*/
 
 #intro{
     display: flex;
@@ -398,19 +404,22 @@ h3+p{
 @media (min-width: 767px) and (max-width: 1023px){
     #carouselExampleDark{
         width: 550px;
-    }    
-
-    #cuteimg {
-        height: 140px;
     }
 
-    .news-recommend{
-        margin: -140px 5% 0 5%;
+    /*盈盈要改的人仔*/
+    #cuteimg {
+        height: 140px;
     }
 
     #cutep{
         padding: 40px 0;
         font-size:0.8rem;
+    }
+
+    /**/
+
+    .news-recommend{
+        margin: -140px 5% 0 5%;
     }
 
     .newsbox:nth-child(1){
@@ -447,9 +456,11 @@ h3+p{
         margin-bottom: 500px;
     }    
 
+    /*盈盈要改的人仔*/
     #cute {
         display: none;
     }
+    /**/
 
     .popo-carousel-caption{
         display: inline-block !important;
@@ -483,11 +494,6 @@ h3+p{
         margin: 0 5%;
     }
 
-    #cutep{
-        padding: 40px 0;
-        font-size:0.8rem;
-    }
-
     .newsbox {
         margin-top:70px;
     }
@@ -516,6 +522,8 @@ h3+p{
         left: 5%;
     }
 
+    /*盈盈要改的footer*/
+
     #intro h3{
         font-size: 22px;
         font-family: 'Noto Serif TC', serif;
@@ -530,6 +538,7 @@ h3+p{
     .intro-decor{
         height: 180px;
     }
+    /**/
 
     #allnewsbox{
         width: 80%;
@@ -572,6 +581,8 @@ h3+p{
         display: none;
     }
 
+    /*盈盈要改的footer*/
+
     #intro h3{
         font-size: 22px;
         font-family: 'Noto Serif TC', serif;
@@ -589,4 +600,5 @@ h3+p{
     .intro-decor{
         margin-bottom: 30px;
     }
+    /**/
 }
