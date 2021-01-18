@@ -59,30 +59,39 @@
       <h6 class="talk">陪我一起來看新聞嘛～</h6>
     </div>
     <!--新聞照片及標題-->
-    <div class="carousel-inner">
-      <div class="carousel-item active popo-carousel-item" data-bs-interval="3000">
-        <img src="./photo/1.png" class="d-block w-100" alt="馳騁機車賽場　廖翊宏UCRR奪冠">
-        <div class="carousel-caption d-none d-md-block popo-carousel-caption">
-          <h5>馳騁機車賽場　廖翊宏UCRR奪冠</h5>
-        </div>
+    <!-- 加上 z-index: 3; 否則 .carousel-indicators 和 .floatman 會蓋在上面，導致連結點不到。-->
+    <div class="carousel-inner" style="z-index: 3;">
+      <div class="carousel-item active popo-carousel-item" data-bs-interval="300000">
+        <a href="./bike-strawberry.html">
+          <img src="./photo/1.png" class="d-block w-100" alt="馳騁機車賽場　廖翊宏UCRR奪冠">
+          <div class="carousel-caption d-none d-md-block popo-carousel-caption">
+            <h5>馳騁機車賽場　廖翊宏UCRR奪冠</h5>
+          </div>
+        </a>
       </div>
       <div class="carousel-item popo-carousel-item" data-bs-interval="3000">
-        <img src="./photo/2.jpg" class="d-block w-100" alt="一路苦戰　廖振珽桌球遺憾摘銀">
-        <div class="carousel-caption d-none d-md-block popo-carousel-caption">
-          <h5>一路苦戰　廖振珽桌球遺憾摘銀</h5>
-        </div>
+        <a href="./tabletennis-strawberry.html">
+          <img src="./photo/2.jpg" class="d-block w-100" alt="一路苦戰　廖振珽桌球遺憾摘銀">
+          <div class="carousel-caption d-none d-md-block popo-carousel-caption">
+            <h5>一路苦戰　廖振珽桌球遺憾摘銀</h5>
+          </div>
+        </a>
       </div>
       <div class="carousel-item popo-carousel-item" data-bs-interval="3000">
-        <img src="./photo/3.jpg" class="d-block w-100" alt="半秒之差　楊合貞滑輪溜冰驚險奪冠">
-        <div class="carousel-caption d-none d-md-block popo-carousel-caption">
-          <h5>半秒之差　楊合貞滑輪溜冰驚險奪冠</h5>
-        </div>
+        <a href="./rola-strawberry.html">
+          <img src="./photo/3.jpg" class="d-block w-100" alt="半秒之差　楊合貞滑輪溜冰驚險奪冠">
+          <div class="carousel-caption d-none d-md-block popo-carousel-caption">
+            <h5>半秒之差　楊合貞滑輪溜冰驚險奪冠</h5>
+          </div>
+        </a>
       </div>
       <div class="carousel-item popo-carousel-item" data-bs-interval="3000">
-        <img src="./photo/4.jpg" class="d-block w-100" alt="再「接」再「力」　國體馬拉松賽重回冠軍寶座">
-        <div class="carousel-caption d-none d-md-block popo-carousel-caption">
-          <h5>再「接」再「力」　國體馬拉松賽重回冠軍寶座</h5>
-        </div>
+        <a href="./run-strawberry.html">
+          <img src="./photo/4.jpg" class="d-block w-100" alt="再「接」再「力」　國體馬拉松賽重回冠軍寶座">
+          <div class="carousel-caption d-none d-md-block popo-carousel-caption">
+            <h5>再「接」再「力」　國體馬拉松賽重回冠軍寶座</h5>
+          </div>
+        </a>
       </div>
     </div>
     <ol class="carousel-indicators popo-carousel-indicators">
